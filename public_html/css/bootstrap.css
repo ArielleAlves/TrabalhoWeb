@@ -85,7 +85,7 @@
   }
   .table td,
   .table th {
-    background-color: #fff !important;
+    background-color: pink !important;
   }
   .table-bordered th,
   .table-bordered td {
@@ -124,7 +124,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: grey ;
+  background-color: whitesmoke ;
 }
 
 [tabindex="-1"]:focus {
@@ -616,7 +616,7 @@ pre {
   margin-top: 0;
   margin-bottom: 1rem;
   font-size: 90%;
-  color: #212529;
+  color: #ff00ff;
 }
 
 pre code {
@@ -2307,9 +2307,9 @@ fieldset[disabled] a.btn {
 }
 
 .btn-primary {
-  color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  color: black;
+  background-color: #ff00ff;
+  border-color: black;
 }
 
 .btn-primary:hover {
@@ -4046,7 +4046,7 @@ tbody.collapse.show {
       flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
+  background-color:white;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;

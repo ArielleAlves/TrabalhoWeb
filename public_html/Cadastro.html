@@ -1,16 +1,163 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
+
     <head>
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script src="js/jquery-3.2.1.js"></script>
+
+        <script src="js/popper.js"></script>
+
+        <script src="js/bootstrap.js"></script>
+
+        <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+
+        <link rel="stylesheet" href="css/personalizado.css" type="text/css" />        
+
     </head>
+
     <body>
-        <div>TODO write content</div>
+
+        <div class="container-fluid">
+
+            <div class="row">
+
+                <div class="col">
+
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                        <a href=”https://www.google.com.br/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwi6s-HbxOTXAhUF4iYKHam4AncQjRwIBw&url=%2Furl%3Fsa%3Di%26rct%3Dj%26q%3D%26esrc%3Ds%26source%3Dimages%26cd%3D%26cad%3Drja%26uact%3D8%26ved%3D0ahUKEwi6s-HbxOTXAhUF4iYKHam4AncQjRwIBw%26url%3Dhttp%253A%252F%252Fmulherpotiguar.rn.gov.br%252F%26psig%3DAOvVaw19GMaaZ9WpwTfAs9n_DVy1%26ust%3D1512070705029705&psig=AOvVaw19GMaaZ9WpwTfAs9n_DVy1&ust=1512070705029705”><img src=”http://mulherpotiguar.rn.gov.br/app/templates/theme2/images/logo_mobile.png”/></a>
+                        <a class="navbar-brand" href="Inicio.html">Women's Store </a> 
+
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="Inicio.html"> Página Inicial <span class="sr-only">(current)</span></a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="Cadastro.html">Cadastro</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="CarrinhoCompra.html" >Carrinho de Compras</a>            
+                                </li>
+
+
+                            </ul>
+
+                       
+
+                        </div>
+                            <form class="form-inline my-2 my-lg-0">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+                            </form>
+
+                    </nav>
+
+                </div>
+
+            </div>
+            
+            <br/>   
+            <center><h1>Cadastro</h1></center>
+
+                
+
+            <div class="row">
+
+                <div class="col-md-3">
+                    <img class="card-img-top" src="imagens/mulher - trabalho.png" alt="Card image cap">
+
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action">
+                            Meus favoritos
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">
+                            Histórico de Compras
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">
+                            Configurações
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">
+                            Sair
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="col-md-9">
+   
+                    <form>
+                        <div class="form-group">
+                            <label class="col-form-label" for="formGroupExampleInput">Nome</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Seu nome">
+                        </div>
+                    
+                        <div class="form-group">
+                            <label class="col-form-label" for="formGroupExampleInput">Cidade</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Sua Cidade atual">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="col-form-label" for="formGroupExampleInput">Estado</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="col-form-label" for="formGroupExampleInput">CEP</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+                        </div>
+                                   
+                                            
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu email">
+                            <small id="emailHelp" class="form-text text-muted"></small>
+                         </div>
+
+                        
+                        <div class="form-group">
+                             <label for="exampleInputPassword1">Senha</label>
+                             <input type="password" class="form-control" id="exampleInputPassword1" placeholder="No mínimo 1 letra, 1 caracter especial e 1 número ">
+                             <small id="passwordHelp" class="form-text text-muted"></small>
+                        </div>
+                        
+                        
+                        <div class="form-group">
+                             <label for="exampleInputPassword1">Confirmar Senha</label>
+                             <input type="password" class="form-control" id="exampleInputPassword1" placeholder="No mínimo 1 letra, 1 caracter especial e 1 número ">
+                        </div>
+                        
+                        
+                        <div class="form-check">
+                            <label class="form-check-label">
+                            <input type="checkbox" class="form-check-input">
+                                Lembrar minha senha
+                            </label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Cadastrar</button>
+                    </form> 
+
+                         
+                </div>
+                
+
+            </div>
+                                    
+            <br/>
+
+   
+
+        </div>
+
     </body>
+
 </html>

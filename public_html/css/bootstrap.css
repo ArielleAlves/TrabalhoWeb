@@ -4068,9 +4068,13 @@ tbody.collapse.show {
 }
 
 .card-body {
-  -ms-flex: 1 1 auto;
-      flex: 1 1 auto;
-  padding: 1.25rem;
+  -ms-flex: 0 1 auto;
+      flex: 0 1 auto;
+  padding: 0.10rem;
+}
+
+.calcularCep{
+    width: 100px;
 }
 
 .card-title {
